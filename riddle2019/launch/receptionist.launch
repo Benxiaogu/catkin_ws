@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="robocup" name="sound_source_localization" type="sound_source_localization.py" output="screen" />
+  <node pkg="riddle2019" name="angle_pub" type="angle_pub" output="screen" />
+  <node pkg="xfei_asr" name="iat_publish_speak" type="iat_publish_speak" output="screen" />
+  <node pkg="riddle2019" name="talkback" type="talkback.py" output="screen" />
+  <node pkg="sound_play" name="soundplay_node" type="soundplay_node.py" output="screen" />
+</launch>
