@@ -44,13 +44,13 @@ pip3 install baidu-aip
 ```
 
 ```
-		body = BodyDetector()
-        result2 = body.detect(
+body = BodyDetector()
+result2 = body.detect(
             ['age', 'gender', 'upper_wear', 'upper_wear_texture', 'upper_wear_fg', 'upper_color',
              'lower_wear', 'lower_color', 'face_mask', 'glasses', 'headwear', 'bag'], device='cam')
         
-        face = FaceDetector()
-        result1 = face.detect(attributes=['age', 'gender', 'glasses', 'beauty', 'mask'], device='cam')
+face = FaceDetector()
+result1 = face.detect(attributes=['age', 'gender', 'glasses', 'beauty', 'mask'], device='cam')
         
 ```
 
